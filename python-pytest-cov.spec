@@ -4,7 +4,7 @@
 %bcond_with	tests		# py.test tests [sensitive to coverage and pytest output, few tests fail for me]
 %bcond_with	tests_py2	# Python 2 py.test tests [require some modules sources + the above]
 %bcond_without	python2		# CPython 2.x module
-%bcond_without	python3		# CPython 3.x module
+%bcond_with	python3		# CPython 3.x module (built from python3-pytest-cov.spec)
 
 Summary:	pytest plugin for measuring coverage
 Summary(pl.UTF-8):	Wtyczka pytest do mierzenia pokrycia
